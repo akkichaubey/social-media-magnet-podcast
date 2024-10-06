@@ -1,0 +1,144 @@
+.footer-wrap {
+  overflow: hidden;
+  position: relative;
+  background: $secondary-light;
+  .circle-shape {
+    position: absolute;
+    right: -11%;
+    bottom: -45%;
+    max-width: get-vw(200px, 673px);
+  }
+  footer {
+    padding-top: get-vw(40px, 113px);
+    .logo {
+      max-width: get-vw(120px, 210px);
+      a {
+        display: inline-block;
+      }
+    }
+    @include breakpoint(max, 1420) {
+      .block-about {
+        width: 26%;
+        @include breakpoint(max, $media-lg) {
+          width: 100%;
+        }
+      }
+      .block-column {
+        width: 74%;
+        @include breakpoint(max, $media-lg) {
+          width: 100%;
+        }
+      }
+    }
+    @include breakpoint(max, $media-lg) {
+      .row {
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+    }
+    .block {
+      .social {
+        padding-top: get-vw(20px, 25px);
+      }
+      .btn-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 38px;
+        .btn {
+          min-width: initial;
+          padding: get-vw(4px, 8px) get-vw(18px, 38px);
+        }
+      }
+    }
+    .footer-menu {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      li {
+        display: inline-flex;
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: -0.1px;
+        color: rgba($white, 0.5);
+        @include breakpoint(max, $media-xs) {
+          flex-direction: column;
+          row-gap: 6px;
+        }
+        a {
+          font-size: 16px;
+          line-height: 1;
+          color: currentColor;
+          display: inline-block;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+    .column-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -15px;
+      row-gap: 30px;
+      .block {
+        padding: 0 15px;
+        &:nth-child(1) {
+          width: 27.5%;
+          @include breakpoint(max, 1420) {
+            width: 25%;
+          }
+          @include breakpoint(max, $media-lg) {
+            width: 25%;
+          }
+          @include breakpoint(max, $media-sm) {
+            width: 100%;
+          }
+        }
+        &:nth-child(2) {
+          width: 27.2%;
+          @include breakpoint(max, 1420) {
+            width: 25%;
+          }
+          @include breakpoint(max, $media-lg) {
+            width: 25%;
+          }
+          @include breakpoint(max, $media-sm) {
+            width: 100%;
+          }
+        }
+        &:nth-child(3) {
+          width: 45%;
+          @include breakpoint(max, 1420) {
+            width: 50%;
+          }
+          @include breakpoint(max, $media-lg) {
+            width: 50%;
+          }
+          @include breakpoint(max, $media-sm) {
+            width: 100%;
+          }
+        }
+        .block-title {
+          color: $white;
+          padding-bottom: 15px;
+        }
+      }
+    }
+    .footer-bottom {
+      text-align: center;
+      padding: get-vw(50px, 136px) 0 get-vw(36px, 46px);
+      p {
+        color: rgba($white, 0.5);
+        a {
+          color: currentColor;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

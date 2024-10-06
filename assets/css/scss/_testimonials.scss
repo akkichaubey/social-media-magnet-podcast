@@ -1,0 +1,14 @@
+.home-testimonials {
+  .ul-list {
+    > ul {
+      margin: 0 -18px;
+      row-gap: 36px;
+      > li {
+        width: 50%;
+        @include breakpoint(max, $media-sm) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.home-meet-host {
+  overflow: hidden;
+  position: relative;
+  .circle-shape {
+    position: absolute;
+    right: -25%;
+    bottom: -6%;
+    max-width: get-vw(200px, 794px);
+  }
+  .meet-box {
+    max-width: 100%;
+    overflow: hidden;
+    @include breakpoint(min, $media-sm-min) {
+      max-width: 534px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .title-wrap {
+    .h2 {
+      color: $white;
+    }
+  }
+  .content-box {
+    color: $white;
+    @include breakpoint(min, $media-md-min) {
+      padding-left: get-vw(15px, 60px);
+    }
+  }
+}

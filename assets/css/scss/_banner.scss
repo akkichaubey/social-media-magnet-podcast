@@ -1,0 +1,133 @@
+.banner {
+  overflow: hidden;
+  position: relative;
+  background: no-repeat center / cover;
+  padding: get-vw(180px, 260px) 0 get-vw(100px, 260px);
+  .circle-shape {
+    position: absolute;
+    right: -25%;
+    bottom: -6%;
+    max-width: get-vw(220px, 916px);
+  }
+  .banner-info {
+    max-width: 850px;
+    .banner-title {
+      color: $white;
+      letter-spacing: -1px;
+    }
+    p {
+      color: $white;
+      line-height: 1.25;
+    }
+    .description {
+      padding-top: 20px;
+    }
+    .btn-wrap {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-top: 38px;
+    }
+    .author {
+      padding-top: 16px;
+      display: flex;
+      align-items: center;
+      column-gap: 13px;
+      .author-img {
+        overflow: hidden;
+        border-radius: 100px;
+        width: get-vw(50px, 70px);
+        height: get-vw(50px, 70px);
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .name-date {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 28px;
+        span {
+          font-size: 20px;
+          line-height: 1.3;
+          color: $white;
+          position: relative;
+          + span {
+            &::after {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: -17px;
+              bottom: 0;
+              width: 9px;
+              height: 9px;
+              border-radius: 100px;
+              margin: auto 0;
+              background: currentColor;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.hero-banner {
+    .column-wrap {
+      display: flex;
+      align-items: center;
+      margin: 0 -15px;
+      row-gap: 30px;
+      @include breakpoint(max, $media-md) {
+        flex-direction: column;
+      }
+    }
+    .banner-info {
+      max-width: 765px;
+      flex-shrink: 0;
+      padding: 0 15px;
+      @include breakpoint(max, $media-xxl) {
+        width: 50%;
+        max-width: initial;
+      }
+      @include breakpoint(max, $media-md) {
+        width: 100%;
+      }
+    }
+    .banner-img {
+      width: 100%;
+      padding: 0 15px;
+      @include breakpoint(max, $media-xxl) {
+        width: 50%;
+      }
+      @include breakpoint(max, $media-md) {
+        width: 100%;
+      }
+      .img-cover {
+        width: 100%;
+        max-width: 562px;
+        margin-left: auto;
+        border-radius: 30px;
+        overflow: hidden;
+        padding-bottom: 84%;
+        @include breakpoint(max, $media-md) {
+          margin-right: auto;
+        }
+      }
+    }
+  }
+  &.inner-banner {
+    padding: get-vw(180px, 350px) 0 get-vw(100px, 250px);
+    .circle-shape {
+      bottom: -50%;
+    }
+    .banner-info {
+      max-width: 577px;
+    }
+    &.inner-blog {
+      .banner-info {
+        max-width: 850px;
+      }
+    }
+  }
+}
