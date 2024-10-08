@@ -42,7 +42,7 @@
                     <div class="blog-img img-cover brd-20">
                         <img src="./assets/images/blog-single.webp" alt="img">
                     </div>
-                    <div class="blog-content">
+                    <div class="blog-content" data-gsap="fadeUp">
                         <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis fames placerat at non massa
                             montes mattis. In ac duis habitasse nisi in parturient eros adipiscing? Porta molestie
                             mauris mattis venenatis nec placerat. Malesuada felis dolor convallis enim metus porta id.
@@ -104,9 +104,88 @@
                             diam congue consectetur. Habitasse curae ornare potenti feugiat quam consequat semper.
                             Suspendisse neque senectus purus proin vitae rutrum libero conubia.</p>
                     </div>
+                    <div class="leave-comment pt-80" data-gsap="fadeUp">
+                        <h3>Leave a comment</h3>
+                        <form>
+                            <div class="form-row">
+                                <div class="col first">
+                                    <div class="input-box">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col last">
+                                    <div class="input-box">
+                                        <input type="text" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="input-box">
+                                        <textarea class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="input-box">
+                                        <input type="submit" value="Leave a comment" class="btn btn-sm">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <div class="col-right">
-
+                    <div class="sidebar">
+                        <div class="side-item recent-post">
+                            <h3 class="side-title" data-gsap="fadeUp">Recent posts</h3>
+                            <ul>
+                                <li>
+                                    <div class="post-box" data-gsap="fadeUp">
+                                        <div class="post-img img-cover">
+                                            <img src="./assets/images/blog-1.webp" alt="img" width="20" height="20">
+                                        </div>
+                                        <h3>Aliquet pulvinar sollicitudin sit hac ultrices praesent</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-box" data-gsap="fadeUp">
+                                        <div class="post-img img-cover">
+                                            <img src="./assets/images/blog-2.webp" alt="img" width="20" height="20">
+                                        </div>
+                                        <h3>Aliquet pulvinar sollicitudin sit hac ultrices praesent</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-box" data-gsap="fadeUp">
+                                        <div class="post-img img-cover">
+                                            <img src="./assets/images/blog-3.webp" alt="img" width="20" height="20">
+                                        </div>
+                                        <h3>Aliquet pulvinar sollicitudin sit hac ultrices praesent</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-box" data-gsap="fadeUp">
+                                        <div class="post-img img-cover">
+                                            <img src="./assets/images/blog-4.webp" alt="img" width="20" height="20">
+                                        </div>
+                                        <h3>Aliquet pulvinar sollicitudin sit hac ultrices praesent</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-box" data-gsap="fadeUp">
+                                        <div class="post-img img-cover">
+                                            <img src="./assets/images/blog-5.webp" alt="img" width="20" height="20">
+                                        </div>
+                                        <h3>Aliquet pulvinar sollicitudin sit hac ultrices praesent</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="side-item" data-gsap="fadeUp">
+                            <div class="listen-box" style="background-image: url(./assets/images/lesten-img.webp);">
+                                <h3>Aliquet pulvinar sollicitudin sit hac ultrices praesent</h3>
+                                <a href="#" class="btn btn-md btn-secondary">Listen now</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

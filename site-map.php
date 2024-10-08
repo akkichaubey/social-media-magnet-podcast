@@ -72,10 +72,13 @@
                     <a href="index.php">Home</a>
                 </li>
                 <li>
+                    <a href="about-us.php">About Us</a>
+                </li>
+                <li>
                     <a href="blog.php">Our Blog</a>
                 </li>
                 <li>
-                    <a href="blog-single.php">Our Blog</a>
+                    <a href="blog-single.php">Blog Single</a>
                 </li>
             </ul>
         </div>

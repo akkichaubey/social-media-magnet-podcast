@@ -357,7 +357,7 @@
     </div>
     <!-- newsletter -->
 
-    <!-- <div class="button pt-50 pb-50" style="background-color: #9e9e9e;">
+    <div class="button pt-50 pb-50" style="background-color: #9e9e9e;">
         <h2>ALL button</h2>
         <ul style="display: flex;flex-wrap: wrap; gap: 20px;">
             <li><a href="#" class="btn">btn</a></li>
@@ -370,7 +370,7 @@
             <li><a href="#" class="btn btn-white">btn btn-white</a></li>
             <li><a href="#" class="btn btn-outline-white">btn btn-outline-white</a></li>
         </ul>
-    </div> -->
+    </div>
 
     <!--Footer Start-->
     <?php include("include/footer.php"); ?>
