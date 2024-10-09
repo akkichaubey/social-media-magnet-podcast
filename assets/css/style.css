@@ -1309,6 +1309,7 @@ html.lenis body {
   }
 }
 .banner.inner-banner {
+  height: clamp(320px, 40.625vw, 780px);
   padding: clamp(180px, 18.2291666667vw, 350px) 0 clamp(100px, 13.0208333333vw, 250px);
 }
 .banner.inner-banner .circle-shape {
@@ -1898,4 +1899,78 @@ html.lenis body {
 .listen-wrap h2 {
   color: #fff;
   font-size: clamp(32px, 2.8125vw, 54px);
+}
+
+.contact-us .contact-form {
+  max-width: 1070px;
+  margin: -211px auto 0;
+  box-shadow: 3px 0 60px rgba(0, 0, 0, 0.1);
+  padding: clamp(15px, 5.46875vw, 105px);
+  background: #fff;
+  position: relative;
+}
+@media (max-width: 1580px) {
+  .contact-us .contact-form {
+    margin-top: -150px;
+  }
+}
+@media (max-width: 1280px) {
+  .contact-us .contact-form {
+    margin-top: -120px;
+  }
+}
+@media (max-width: 991px) {
+  .contact-us .contact-form {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-us .contact-form {
+    margin-top: -20px;
+  }
+}
+.contact-us .contact-form .form-title {
+  padding-bottom: clamp(25px, 2.34375vw, 45px);
+}
+.contact-us .contact-form .form-title h3 {
+  padding-bottom: 12px;
+}
+.contact-us .contact-form .form-title p {
+  color: #222222;
+}
+.contact-us .contact-form .form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  row-gap: clamp(20px, 1.3020833333vw, 25px);
+}
+.contact-us .contact-form .form .form-row > div {
+  width: 100%;
+  padding: 0 10px;
+  flex: initial;
+}
+@media (min-width: 768px) {
+  .contact-us .contact-form .form .form-row > div.col-50 {
+    width: 50%;
+  }
+}
+.contact-us .contact-form .form .input-box .form-control {
+  border-radius: clamp(20px, 2.6041666667vw, 50px);
+  height: clamp(40px, 3.8020833333vw, 73px);
+  padding: 5px clamp(20px, 1.8229166667vw, 35px);
+  border: 1px solid #c6c6c6;
+  background: #fff;
+  outline: none;
+  box-shadow: none;
+}
+.contact-us .contact-form .form .input-box .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.contact-us .contact-form .form .input-box textarea.form-control {
+  height: clamp(150px, 14.8958333333vw, 286px);
+  padding: clamp(15px, 1.8229166667vw, 35px) clamp(20px, 1.8229166667vw, 35px);
+}
+.contact-us .contact-form .form .input-box.btn-wrap {
+  padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */

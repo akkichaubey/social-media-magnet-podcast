@@ -80,6 +80,9 @@
                 <li>
                     <a href="blog-single.php">Blog Single</a>
                 </li>
+                <li>
+                    <a href="contact-us.php">Contact Us</a>
+                </li>
             </ul>
         </div>
     </div>
