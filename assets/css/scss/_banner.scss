@@ -117,7 +117,7 @@
     }
   }
   &.inner-banner {
-    height: get-vw(320px, 780px);
+    min-height: get-vw(320px, 780px);
     padding: get-vw(180px, 350px) 0 get-vw(100px, 250px);
     .circle-shape {
       bottom: -50%;

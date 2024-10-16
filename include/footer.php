@@ -1,6 +1,6 @@
 <div class="footer-wrap">
     <div class="circle-shape">
-        <img src="./assets/images/circle.webp">
+        <img src="./assets/images/circle.webp" alt="circle" width="916" height="916">
     </div>
     <footer>
         <div class="container">
@@ -9,33 +9,33 @@
                     <div class="block">
                         <div class="logo">
                             <a href="#">
-                                <img src="assets/images/logo.webp" alt="">
+                                <img src="assets/images/logo.webp" alt="footer logo" width="210" height="106">
                             </a>
                         </div>
                         <ul class="social">
                             <li>
-                                <a href="#">
+                                <a href="#" aria-label="facebook">
                                     <svg class="icon" width="18" height="18">
                                         <use xlink:href="assets/images/svgsprit.svg#facebook-icon"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" aria-label="twitter">
                                     <svg class="icon" width="18" height="18">
                                         <use xlink:href="assets/images/svgsprit.svg#x-icon"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" aria-label="instagram">
                                     <svg class="icon" width="18" height="18">
                                         <use xlink:href="assets/images/svgsprit.svg#instagram-icon"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" aria-label="linkdin">
                                     <svg class="icon" width="18" height="18">
                                         <use xlink:href="assets/images/svgsprit.svg#linkdin-icon"></use>
                                     </svg>

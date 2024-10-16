@@ -375,3 +375,127 @@
     }
   }
 }
+
+.podcast {
+  position: relative;
+  border-radius: get-vw(20px, 30px);
+  overflow: hidden;
+  &--img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($black, 0.5);
+    }
+  }
+  &--info {
+    position: relative;
+    padding: get-vw(80px, 180px) get-vw(20px, 42px) get-vw(40px, 80px);
+    .btn-play {
+      display: grid;
+      place-items: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 100%;
+      border: 0;
+      color: $primary;
+      background: $white;
+    }
+    .podcast-title {
+      color: $white;
+      padding-top: get-vw(20px, 22px);
+      font-size: get-vw(20px, 26px);
+      a {
+        color: currentColor;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+  &--stl-1 {
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    column-gap: get-vw(20px, 33px);
+    @include breakpoint(max, $media-md) {
+      align-items: initial;
+    }
+    @include breakpoint(max, 480) {
+      flex-direction: column;
+      row-gap: get-vw(15px, 30px);
+    }
+    .icon-box {
+      width: 180px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      padding: 20px 0;
+      @include breakpoint(max, 480) {
+        width: 100%;
+      }
+      .btn-play {
+        display: grid;
+        place-items: center;
+        width: 54px;
+        height: 54px;
+        border-radius: 100%;
+        border: 0;
+        color: $primary;
+        background: $white;
+        box-shadow: 3px 0 30px rgba($black, 0.1);
+      }
+    }
+    .img-box {
+      flex-shrink: 0;
+      width: get-vw(200px, 302px);
+      border-radius: 30px;
+      overflow: hidden;
+      @include breakpoint(max, 480) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .podcast--info {
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+      padding: 0;
+      @include breakpoint(max, $media-md) {
+        flex-direction: column;
+        row-gap: get-vw(15px, 20px);
+        align-items: initial;
+      }
+      h3 {
+        font-size: get-vw(20px, 28px);
+      }
+      .author {
+        white-space: nowrap;
+        a {
+          color: $primary;
+        }
+      }
+      .btn {
+        min-width: 182px;
+      }
+    }
+  }
+}

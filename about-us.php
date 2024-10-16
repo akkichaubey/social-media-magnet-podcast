@@ -13,7 +13,7 @@
     <!-- hero-banner -->
     <div class="banner inner-banner img-overlay" style="background-image: url('./assets/images/blog-inner.webp');">
         <div class="circle-shape" data-gsap="fadeRight">
-            <img src="./assets/images/circle.webp">
+            <img src="./assets/images/circle.webp" alt="img" width="916" height="916">
         </div>
         <div class="container container-wide">
             <div class="banner-info">
@@ -35,10 +35,10 @@
                     <div class="col-left">
                         <div class="about-gallery" data-gsap="fadeLeft">
                             <div class="img-cover img-1 brd-30">
-                                <img src="./assets/images/about.webp">
+                                <img src="./assets/images/about.webp" alt="about" width="486" height="454">
                             </div>
                             <div class="img-cover img-2 brd-30">
-                                <img src="./assets/images/about.webp">
+                                <img src="./assets/images/about.webp" alt="about" width="486" height="454">
                             </div>
                         </div>
                     </div>
@@ -87,14 +87,14 @@
             <img src="./assets/images/circle-black.webp" alt="" width="" height="">
         </div>
         <div class="shape right">
-            <img src="./assets/images/subscribe-circle.webp" alt="" width="" height="">
+            <img src="./assets/images/subscribe-circle.webp" alt="circle" width="591" height="591">
         </div>
         <div class="inner-section">
             <div class="container">
                 <div class="column-wrap">
                     <div class="col-left">
                         <div class="img-box img-cover brd-30" data-gsap="fadeUp">
-                            <img src="./assets/images/about.webp" alt="" width="" height="">
+                            <img src="./assets/images/about.webp" alt="about" width="486" height="454">
                         </div>
                     </div>
                     <div class="col-right">
@@ -126,7 +126,7 @@
                 <div class="column-wrap">
                     <div class="col-left">
                         <div class="img-box img-cover brd-30" data-gsap="fadeUp">
-                            <img src="./assets/images/about.webp" alt="" width="" height="">
+                            <img src="./assets/images/about.webp" alt="" width="486" height="454">
                         </div>
                     </div>
                     <div class="col-right">

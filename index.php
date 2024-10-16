@@ -13,7 +13,7 @@
     <!-- hero-banner -->
     <div class="banner hero-banner img-overlay" style="background-image: url('./assets/images/hero-bg.webp');">
         <div class="circle-shape" data-gsap="fadeRight">
-            <img src="./assets/images/circle.webp">
+            <img src="./assets/images/circle.webp" alt="circle" width="916" height="916">
         </div>
         <div class="container container-wide">
             <div class="column-wrap">
@@ -52,10 +52,10 @@
                     <div class="col-left">
                         <div class="about-img-box" data-gsap="fadeLeft">
                             <div class="dot-bg">
-                                <img src="./assets/images/dot.webp">
+                                <img src="./assets/images/dot.webp" alt="img" width="294" height="243">
                             </div>
                             <div class="img-cover">
-                                <img src="./assets/images/about.webp">
+                                <img src="./assets/images/about.webp" alt="img" width="434" height="564">
                                 <div class="video-btn">
                                     <button type="button">
                                         <svg class="icon" width="32" height="32">
@@ -95,16 +95,16 @@
                     <div class="col-left">
                         <div class="subscribe-img-box" data-gsap="fadeRight" data-delay="0.2">
                             <div class="img-mobile">
-                                <img src="./assets/images/why-subscribe.webp" alt="img">
+                                <img src="./assets/images/why-subscribe.webp" alt="img" width="328" height="597">
                             </div>
                             <div class="circle-img">
-                                <img src="./assets/images/subscribe-circle.webp" alt="img">
+                                <img src="./assets/images/subscribe-circle.webp" alt="circle" width="590" height="590">
                                 <div class="sound-btn">
-                                    <img src="./assets/images/noun-sound-wave.webp" alt="img">
+                                    <img src="./assets/images/noun-sound-wave.webp" alt="img" width="86" height="67">
                                 </div>
                             </div>
                             <div class="subscribe-player">
-                                <img src="assets/images/subscribe-player.webp">
+                                <img src="assets/images/subscribe-player.webp" alt="circle" width="327" height="166">
                             </div>
 
                         </div>
@@ -139,13 +139,13 @@
     <div class="home-meet-host pt-150 pb-150 img-overlay"
         style="background-image: url(./assets/images/meet-your-host-bg.webp);">
         <div class="circle-shape" data-gsap="fadeRight">
-            <img src="./assets/images/circle.webp">
+            <img src="./assets/images/circle.webp" alt="circle" width="916" height="916">
         </div>
         <div class="container">
             <div class="row align-items-center row-gap-30">
                 <div class="col-md-6">
                     <div class="meet-box brd-30" data-gsap="fadeLeft">
-                        <img src="./assets/images/meet-your-host.webp" alt="img">
+                        <img src="./assets/images/meet-your-host.webp" alt="img" width="534" height="592">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -194,7 +194,7 @@
                                 <div class="btn-wrap">
                                     <a href="#" class="btn btn-sm">Listen Now</a>
                                     <div class="podcast-icon">
-                                        <img src="./assets/images/podcast-icon.webp" alt="img">
+                                        <img src="./assets/images/podcast-icon.webp" alt="img" width="82" height="52">
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
                                 <div class="btn-wrap">
                                     <a href="#" class="btn btn-sm">Listen Now</a>
                                     <div class="podcast-icon">
-                                        <img src="./assets/images/podcast-icon.webp" alt="img">
+                                        <img src="./assets/images/podcast-icon.webp" alt="img" width="82" height="52">
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@
                                 <div class="btn-wrap">
                                     <a href="#" class="btn btn-sm">Listen Now</a>
                                     <div class="podcast-icon">
-                                        <img src="./assets/images/podcast-icon.webp" alt="img">
+                                        <img src="./assets/images/podcast-icon.webp" alt="img" width="82" height="52">
                                     </div>
                                 </div>
                             </div>
@@ -254,7 +254,7 @@
                     <li>
                         <div class="testimonial-box brd-20" data-gsap="fadeUp">
                             <div class="icon">
-                                <img src="./assets/images/quote-icon.webp" alt="img">
+                                <img src="./assets/images/quote-icon.webp" alt="img" width="40" height="33">
                             </div>
                             <p>I’ve learned more from one episode of Social Media Magnet than from weeks of research
                                 online. Michelle and her guests are truly experts!</p>
@@ -267,7 +267,7 @@
                     <li>
                         <div class="testimonial-box brd-20" data-gsap="fadeUp">
                             <div class="icon">
-                                <img src="./assets/images/quote-icon.webp" alt="img">
+                                <img src="./assets/images/quote-icon.webp" alt="img" width="40" height="33">
                             </div>
                             <p>I’ve learned more from one episode of Social Media Magnet than from weeks of research
                                 online. Michelle and her guests are truly experts!</p>
@@ -310,7 +310,7 @@
                 <div class="col-md-6">
                     <div class="box-wrap" data-gsap="fadeUp">
                         <div class="dot-shape">
-                            <img src="./assets/images/dot.webp" alt="img">
+                            <img src="./assets/images/dot.webp" alt="img" width="294" height="243">
                         </div>
                         <div class="box box--podcast brd-20">
                             <div class="img-cover brd-20">
@@ -356,21 +356,6 @@
         </div>
     </div>
     <!-- newsletter -->
-
-    <div class="button pt-50 pb-50" style="background-color: #9e9e9e;">
-        <h2>ALL button</h2>
-        <ul style="display: flex;flex-wrap: wrap; gap: 20px;">
-            <li><a href="#" class="btn">btn</a></li>
-            <li><a href="#" class="btn btn-md">btn btn-md</a></li>
-            <li><a href="#" class="btn btn-sm">btn btn-sm</a></li>
-            <li><a href="#" class="btn btn-primary">btn btn-primary</a></li>
-            <li><a href="#" class="btn btn-outline-primary">btn btn-outline-primary</a></li>
-            <li><a href="#" class="btn btn-secondary">btn btn-secondary</a></li>
-            <li><a href="#" class="btn btn-outline-secondary">btn btn-outline-secondary</a></li>
-            <li><a href="#" class="btn btn-white">btn btn-white</a></li>
-            <li><a href="#" class="btn btn-outline-white">btn btn-outline-white</a></li>
-        </ul>
-    </div>
 
     <!--Footer Start-->
     <?php include("include/footer.php"); ?>

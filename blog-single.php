@@ -14,7 +14,7 @@
     <div class="banner inner-banner inner-blog img-overlay"
         style="background-image: url('./assets/images/blog-inner.webp');">
         <div class="circle-shape" data-gsap="fadeRight">
-            <img src="./assets/images/circle.webp">
+            <img src="./assets/images/circle.webp" alt="circle" width="916" height="916">
         </div>
         <div class="container container-wide">
             <div class="banner-info">
@@ -40,7 +40,7 @@
             <div class="column-wrap">
                 <div class="col-left">
                     <div class="blog-img img-cover brd-20">
-                        <img src="./assets/images/blog-single.webp" alt="img">
+                        <img src="./assets/images/blog-single.webp" alt="img" width="718" height="346">
                     </div>
                     <div class="blog-content" data-gsap="fadeUp">
                         <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Iaculis fames placerat at non massa
@@ -78,7 +78,7 @@
                             interdum volutpat felis erat pellentesque. Suscipit id nostra nulla conubia morbi. Phasellus
                             cras sapien vehicula sed litora ipsum gravida suscipit.</p>
                         <h2>Lobortis risus eros tincidunt condimentum </h2>
-                        <img src="./assets/images/blog-single-1.webp" alt="img">
+                        <img src="./assets/images/blog-single-1.webp" alt="img" width="718" height="346">
                         <p>Lobortis risus eros tincidunt condimentum mi arcu urna congue. Dignissim scelerisque erat
                             gravida eget vivamus. Natoque efficitur sagittis aliquet ullamcorper montes ullamcorper
                             auctor. Convallis commodo etiam fringilla justo in. Rhoncus lacus praesent aptent magnis

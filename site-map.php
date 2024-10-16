@@ -83,7 +83,28 @@
                 <li>
                     <a href="contact-us.php">Contact Us</a>
                 </li>
+                <li>
+                    <a href="podcast.php">Podcast</a>
+                </li>
+                <li>
+                    <a href="podcast-player.php">Podcast Player</a>
+                </li>
             </ul>
+
+            <div class="button pt-50 pb-50" style="background-color: #9e9e9e;">
+                <h2>ALL button</h2>
+                <ul style="display: flex;flex-wrap: wrap; gap: 20px;">
+                    <li><a href="#" class="btn">btn</a></li>
+                    <li><a href="#" class="btn btn-md">btn btn-md</a></li>
+                    <li><a href="#" class="btn btn-sm">btn btn-sm</a></li>
+                    <li><a href="#" class="btn btn-primary">btn btn-primary</a></li>
+                    <li><a href="#" class="btn btn-outline-primary">btn btn-outline-primary</a></li>
+                    <li><a href="#" class="btn btn-secondary">btn btn-secondary</a></li>
+                    <li><a href="#" class="btn btn-outline-secondary">btn btn-outline-secondary</a></li>
+                    <li><a href="#" class="btn btn-white">btn btn-white</a></li>
+                    <li><a href="#" class="btn btn-outline-white">btn btn-outline-white</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <!--Footer Start-->
